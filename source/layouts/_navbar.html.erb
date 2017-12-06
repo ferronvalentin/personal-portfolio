@@ -1,0 +1,38 @@
+<!-- Le wagon navbar -->
+<div class="container">
+  <div class="navbar-portfolio">
+
+  <!-- Logo -->
+    <a href="/" class="navbar-wagon-brand">
+      <img src="images/logo.png" alt="logo">
+    </a>
+  <!-- Logo -->
+
+<!-- Fullscreen burger menu https://codepen.io/PaulVanO/pen/XJYGNQ -->
+
+    <div class="button_container" id="toggle">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li ><%= link_to "Work", '/' %></li>
+          <li><%= link_to "About", '/about.html' %></li>
+          <li><%= link_to "Contact", '/contact.html' %></li>
+        </ul>
+      </nav>
+    </div>
+
+  <!-- JQuery du burger menu -->
+  <script type="text/javascript">
+    $('#toggle').click(function() {
+       $(this).toggleClass('active');
+       $('#overlay').toggleClass('open');
+      });
+  </script>
+
+</div>
+</div>

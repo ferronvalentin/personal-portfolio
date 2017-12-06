@@ -1,0 +1,22 @@
+.contact-content {
+  padding-bottom: 115px;
+  padding-left: 30px;
+  padding-top: 50px;
+  h2 {
+    color: rgb(50,50,50);
+    font-size: 41px;
+    font-weight: bolder;
+  }
+  p {
+    font-size: 20px;
+    color: $color-main;
+    padding-top: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: #fb3f51;
+    &:hover {
+      color: #f96d70;
+    }
+  }
+}

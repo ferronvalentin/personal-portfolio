@@ -1,0 +1,12 @@
+- name: 'Cahier'
+  bold: ' Hiver'
+  description: 'description du projet 1'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555054/image-5_gkqe3y.jpg
+- name: 'Sachet'
+  bold: ' Poudre'
+  description: 'description du projet 2'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555054/image-4_ggkk6g.jpg
+- name: 'Projet'
+  bold: ' Ouf'
+  description: 'description du projet 3'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555148/sample.jpg

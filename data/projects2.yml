@@ -1,0 +1,12 @@
+- name: 'Crypto'
+  bold: ' Monnaie'
+  description: 'description du projet 1'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555055/image-1_oudajr.jpg
+- name: 'Case'
+  bold: ' English'
+  description: 'description du projet 2'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555054/image-3_vxxqmi.jpg
+- name: 'Paris'
+  bold: ' Capitale'
+  description: 'description du projet 1'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555054/image-2_xvsjbu.jpg
