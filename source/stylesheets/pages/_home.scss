@@ -197,6 +197,14 @@ body {
   }
 }
 
+@media (max-device-width:480px) {
+  .page-title-content {
+		padding-top: 35px;
+	  padding-bottom: 35px;
+	  padding-left: 30px;
+  }
+}
+
 a {
 	outline: none;
 	color: #3498db;

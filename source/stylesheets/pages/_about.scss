@@ -18,6 +18,12 @@
   }
 }
 
+@media (max-device-width:480px) {
+  .about-content {
+    width: 95%;
+  }
+}
+
 .about-title-content {
   position: relative;
   top: 25px;
