@@ -1,12 +1,12 @@
 - name: 'Crypto'
   bold: ' Monnaie'
-  description: 'description du projet 1'
+  description: 'Design application de Cryptomonnaie'
   picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555055/image-1_oudajr.jpg
-- name: 'Case'
-  bold: ' English'
-  description: 'description du projet 2'
-  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555054/image-3_vxxqmi.jpg
-- name: 'Paris'
-  bold: ' Capitale'
-  description: 'description du projet 1'
-  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555054/image-2_xvsjbu.jpg
+- name: 'Boot'
+  bold: ' CAMPERS'
+  description: 'Site internet de la plateforme Bootcampers'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512667338/HomeBootcamperPerspectiveGris_coczmc.jpg
+- name: 'CoffeeHouse'
+  bold: ' Assas'
+  description: 'Site internet Coffee House Assas'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512666959/HomeCHAMac_vjoetz.jpg
