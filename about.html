@@ -6,31 +6,94 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-3c48b980.css" rel="stylesheet" />
+    <title>Valentin Ferron | À propos</title>
+    <link href="stylesheets/application-efcae100.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="images/logo2-29d82002.png" rel="icon" type="image/png" />
   </head>
   <body>
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/ssaunier" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
-</a>          <h2>Sébastien Saunier</h2>
-          <p>
-<a href="https://github.com/ssaunier" target="_blank">              <i class="fa fa-github"></i> ssaunier
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Papillard" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Papillard" class="img-circle" alt="Papillard" />
-</a>          <h2>Boris Paillard</h2>
-          <p>
-<a href="https://github.com/Papillard" target="_blank">              <i class="fa fa-github"></i> Papillard
-</a>          </p>
-        </li>
-    </ul>
+    <div class="home-container">
+      <!-- Le wagon navbar -->
+<div class="container">
+  <div class="navbar-portfolio">
+
+  <!-- Logo -->
+    <a href="/" class="navbar-wagon-brand">
+      <img src="images/logo2-29d82002.png" alt="logo">
+    </a>
+  <!-- Logo -->
+
+<!-- Fullscreen burger menu https://codepen.io/PaulVanO/pen/XJYGNQ -->
+
+    <div class="button_container" id="toggle">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li ><a href="/">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  <!-- JQuery du burger menu -->
+  <script type="text/javascript">
+    $('#toggle').click(function() {
+       $(this).toggleClass('active');
+       $('#overlay').toggleClass('open');
+      });
+  </script>
+
+</div>
+</div>
+
+    </div>
+    <div class="container">
+      <div class="container about-class">
+  <!-- <div class="col-xs-12 col-sm-6 col-sm-offset-4"> -->
+    <div class="about-title-content">
+      <img src="images/profil-68cd6ddb.png" width="275" alt="Profil" />
+    </div>
+  <!-- </div> -->
+
+  <!-- <div class="col-xs-12 col-sm-4 col-sm-offset-4"> -->
+  	<div class="about-content">
+      <p>Après cinq années passées dans le secteur juridique à relire des contrats en tous genres, j'ai décidé de plaquer le papier pour le web.</p>
+      <p>Une formation au Wagon et quelques projets plus tard, je décide de lancer mon activité de webdesigner en freelance.</p>
+      <p>J’interviens sur des missions de création et d’exécution aussi bien en PRINT qu’en WEB avec INTÉGRATION html/css (+ développement wordpress).</p>
+      <p>N'hésitez pas à me contacter pour toute demande de devis personnalisé.</p>
+    </div>
+  <!-- </div> -->
+</div>
+
+    </div>
+      <div class="home-footer">
+  <div class="footer">
+    <div class="footer-logo">
+      <a href="/" class="navbar-wagon-brand">
+        <img src="images/logo2-29d82002.png" alt="logo">
+      </a>
+    </div>
+    <div class="footer-menu">
+      <li ><a href="/">ACCUEIL</a></li>
+      <li><a href="about.html">À PROPOS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </div>
+    <div class="footer-links">
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <div class="footer-copyright">
+      © 2017 Valentin Ferron.
+    </div>
   </div>
 </div>
 
