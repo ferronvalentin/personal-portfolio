@@ -1,3 +1,7 @@
+- name: 'Musi'
+  bold: 'Loc'
+  description: 'Plateforme web de location instruments de musique'
+  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512669131/HomeMusilocMac_yrdozf.jpg
 - name: 'App'
   bold: ' Instant'
   description: 'Design Application de réservation Instant'
@@ -6,7 +10,3 @@
   bold: ' Notaire'
   description: 'Cartes de visite relief et touché doux'
   picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512667733/CarteNotaire_uwpzno.jpg
-- name: 'Projet'
-  bold: ' Ouf'
-  description: 'description du projet 3'
-  picture: https://res.cloudinary.com/ddjlhkips/image/upload/v1512555148/sample.jpg
